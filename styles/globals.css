@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    
+}
+
+@layer components {
+
+    .selected {
+        opacity: 30%;
+    }
+    
+    .orangeBorder {
+        border: 2px solid #ff7d1a
+    }
+    
+    .header-titles {
+        color: hsl(219, 9%, 45%);
+        /* height: 100%; */
+        font-weight: 500;
+        cursor: pointer;
+        border-bottom: 4px solid white;
+        padding-bottom: 20px;
+        /* margin-bottom: 20px; */
+        transition: all;
+        transition-duration: 300ms;
+        
+    }
+
+    .header-titles:hover{
+        border-bottom: 4px solid #ff7d1a;
+        color: black
+    }
+}
